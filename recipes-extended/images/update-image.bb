@@ -11,9 +11,15 @@ SRC_URI = "\
 "
 
 # images to build before building swupdate image
-IMAGE_DEPENDS = "core-image-full-cmdline"
+IMAGE_DEPENDS = "allwinner-tiny-update-image"
 
 # images and files that will be included in the .swu image
-SWUPDATE_IMAGES = "core-image-full-cmdline"
+SWUPDATE_IMAGES = "allwinner-tiny-update-image"
 
-SWUPDATE_IMAGES_FSTYPES[core-image-full-cmdline] = ".ext4.gz"
+SWUPDATE_IMAGES_FSTYPES[allwinner-tiny-update-image] = ".ext4.gz"
+
+# IMAGE_DEPENDS_rervision-dvk-h3 = "allwinner-tiny-update-image"
+
+# SWUPDATE_IMAGES_rervision-dvk-h3 = "allwinner-tiny-update-image"
+
+# SWUPDATE_IMAGES_FSTYPES_rervision-dvk-h3[allwinner-tiny-update-image] = ".ext4.gz"
