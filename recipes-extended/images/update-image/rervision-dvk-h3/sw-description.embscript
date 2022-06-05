@@ -96,7 +96,7 @@ end ";
 			copy1 : {
 				images: (
 					{
-						filename = "allwinner-tiny-update-image-rervision-dvk-h3.ext4.gz";
+						filename = "allwinner-tiny-ota-image-rervision-dvk-h3.ext4.gz";
 						type = "raw";
 						compressed = true;
 						device = "/dev/mmcblk0p2";
@@ -120,7 +120,7 @@ end ";
 			copy2 : {
 				images: (
 					{
-						filename = "allwinner-tiny-update-image-rervision-dvk-h3.ext4.gz";
+						filename = "allwinner-tiny-ota-image-rervision-dvk-h3.ext4.gz";
 						type = "raw";
 						compressed = true;
 						device = "/dev/mmcblk0p3";
